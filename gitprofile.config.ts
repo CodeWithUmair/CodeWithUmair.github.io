@@ -35,14 +35,20 @@ const CONFIG = {
         {
           title: 'AI Notepad',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'An intelligent note-taking app with AI integeration, built with OpenAI, Pinecone, Next.js, Shadcn UI, Clerk, and more',
           imageUrl: '/chatnote.png',
           link: 'https://chatnote3.vercel.app',
         },
         {
+          title: 'Crypto Coins Update',
+          description: 'Crypto market updated ✔',
+          imageUrl: '/bitcoin.png',
+          link: 'https://crypto867.netlify.app/',
+        },
+        {
           title: 'Data-Structures-Algoritms-Javascript',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'This repo help to understand the building blocks of some main Data Structures',
           imageUrl: '/dsa.png',
           link: 'https://github.com/CodeWithUmair/Data-Structures-Algoritms-Javascript',
         },
@@ -117,30 +123,60 @@ const CONFIG = {
   ],
   certifications: [
     {
-      name: 'Complete React Developer in 2023(w/Redux, Hooks, GraphQL)',
+      name: 'Complete React Developer in 2023(w/Redux, Hooks, GraphQL) 📜',
       body: 'Udemy',
       year: 'May 2023',
       link: 'https://ik.imagekit.io/umair/React-dev.jpg?updatedAt=1705902273051',
     },
+    {
+      name: 'Learn Solidity- Get Started with Web 3.0 and Blockchains 📜',
+      body: 'CodeDamn',
+      year: 'May 2023',
+      link: 'https://ik.imagekit.io/umair/UM_SOLIDITY.png?updatedAt=1693945675778',
+    },
+    {
+      name: 'Shopify Hydrogen (React.js) 📜',
+      body: 'SkillShare',
+      year: 'Jan 2023',
+      link: 'https://ik.imagekit.io/umair/UM_HYDROGEN.png?updatedAt=1693945675474',
+    },
+    {
+      name: 'Shopify Theme Development 📜',
+      body: 'SkillShare',
+      year: 'Jan 2023',
+      link: 'https://ik.imagekit.io/umair/UM_SHOPIFY.png?updatedAt=1693945675478',
+    },
+    {
+      name: 'Frontend Development Libraries 📜',
+      body: 'freecodecamp',
+      year: 'May 2022',
+      link: 'https://ik.imagekit.io/umair/UM_F.png?updatedAt=1693945675728',
+    },
+    {
+      name: 'JavaScript Algorithms and Data Structures 📜',
+      body: 'freecodecamp',
+      year: 'November 2021',
+      link: 'https://ik.imagekit.io/umair/UM_JS.png?updatedAt=1693945675954',
+    },
+    {
+      name: 'Responsive Web Design 📜',
+      body: 'freecodecamp',
+      year: 'October 2021',
+      link: 'https://ik.imagekit.io/umair/UM_R.png?updatedAt=1693945675885',
+    },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Pakistan Shipowner Govt. College',
+      degree: 'Intermediate (Engineering)',
+      from: '2018',
+      to: '2020',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: '', // medium | dev
+    username: '', // to hide blog section, keep it empty
     limit: 3, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
