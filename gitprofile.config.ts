@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['codewithumair/metamask-extension', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -33,20 +33,18 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'AI Notepad',
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          imageUrl: '/chatnote.png',
+          link: 'https://chatnote3.vercel.app',
         },
         {
-          title: 'Project Name',
+          title: 'Data-Structures-Algoritms-Javascript',
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          imageUrl: '/dsa.png',
+          link: 'https://github.com/CodeWithUmair/Data-Structures-Algoritms-Javascript',
         },
       ],
     },
@@ -57,20 +55,20 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'umair-amir-30b32721a',
+    twitter: 'Muhamma50242291',
+    mastodon: '',
     facebook: '',
     instagram: '',
     youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.umairamir.netlify.app',
+    website: 'https://umairamir.netlify.app',
     phone: '',
     email: 'codewithumair867@gmail.com',
   },
@@ -88,8 +86,11 @@ const CONFIG = {
     'JavaScript',
     'Node.js',
     'PHP',
-    'Laravel',
     'MySQL',
+    'Shopify',
+    'WordPress',
+    'Web3',
+    'Solidity',
   ],
   experiences: [
     {
@@ -116,10 +117,10 @@ const CONFIG = {
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'Complete React Developer in 2023(w/Redux, Hooks, GraphQL)',
+      body: 'Udemy',
+      year: 'May 2023',
+      link: 'https://ik.imagekit.io/umair/React-dev.jpg?updatedAt=1705902273051',
     },
   ],
   educations: [

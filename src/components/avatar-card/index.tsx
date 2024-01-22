@@ -1,3 +1,4 @@
+import { FaDownload } from 'react-icons/fa';
 import { FALLBACK_IMAGE } from '../../constants';
 import { Profile } from '../../interfaces/profile';
 import { skeleton } from '../../utils';
@@ -89,7 +90,7 @@ const AvatarCard: React.FC<AvatarCardProps> = ({
               download
               rel="noreferrer"
             >
-              Download Resume
+              Download Resume <FaDownload />
             </a>
           ))}
       </div>
