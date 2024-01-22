@@ -100,6 +100,13 @@ const CONFIG = {
   ],
   experiences: [
     {
+      company: 'Freelancing ⚡',
+      position: 'Frontend Dev | Web3 | Shopify',
+      from: 'August 2022',
+      to: 'Present',
+      companyLink: '',
+    },
+    {
       company: 'Ecommerce Inside 🔗',
       position: 'CMS Developer',
       from: 'March 2023',
@@ -112,13 +119,6 @@ const CONFIG = {
       from: 'September 2021',
       to: 'March 2023',
       companyLink: 'https://www.textilechannel.com/',
-    },
-    {
-      company: 'Freelancing ⚡',
-      position: 'Frontend Dev | Web3 | Shopify',
-      from: 'August 2022',
-      to: 'Present',
-      companyLink: '',
     },
   ],
   certifications: [
