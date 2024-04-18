@@ -33,11 +33,18 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
+          title: 'Alpha Network',
+          description:
+            'Alpha Network is a revolutionary online platform that provides a wide range of eBooks at nominal charges. ',
+          imageUrl: '/left_face.png',
+          link: 'https://alphanet.vercel.app/',
+        },
+        {
           title: 'AI Notepad',
           description:
             'An intelligent note-taking app with AI integeration, built with OpenAI, Pinecone, Next.js, Shadcn UI, Clerk, and more',
           imageUrl: '/chatnote.png',
-          link: 'https://chatnote3.vercel.app',
+          link: 'https://chatnote-umair.vercel.app/',
         },
         {
           title: 'Crypto Coins Update',
