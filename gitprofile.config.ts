@@ -44,7 +44,7 @@ const CONFIG = {
           description:
             'An intelligent note-taking app with AI integeration, built with OpenAI, Pinecone, Next.js, Shadcn UI, Clerk, and more',
           imageUrl: '/chatnote.png',
-          link: 'https://chatnote-umair.vercel.app/',
+          link: 'https://chatnote3.vercel.app/',
         },
         {
           title: 'Crypto Coins Update',
@@ -86,8 +86,7 @@ const CONFIG = {
     email: 'codewithumair867@gmail.com',
   },
   resume: {
-    fileUrl:
-      '', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'TypeScript',
